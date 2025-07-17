@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 💡 감정 기반 CBT 보조 서비스  
+### 신체 이미지 인식 개선을 위한 청소년 정서지원 플랫폼
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+## 🧠 프로젝트 개요
 
-In the project directory, you can run:
+청소년기의 외모에 대한 부정적 인식은 자존감 저하, 불안, 우울 등 다양한 심리적 문제로 이어질 수 있으며, 또래 압력이나 소셜 미디어 등의 외부 요인으로 인해 그 영향은 더욱 심화됩니다.
 
-### `npm start`
+본 프로젝트는 **신체 이미지에 특화된 인지행동치료(CBT)**의 효과를 극대화하고 **중도 이탈률을 줄이기 위한 감정 기반 보조 서비스**를 기획했습니다.  
+**AI 기반 감정 인식 기술**을 활용하여 사용자의 감정 상태를 실시간으로 분석하고, 자기 인식 및 정서적 피드백을 통해 긍정적인 신체 이미지 형성을 돕습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 핵심 목표
 
-### `npm test`
+- 감정 인식 기술을 활용한 **자가 감정 모니터링**
+- CBT 프로그램에 대한 **사용자 순응도 향상**
+- 긍정적인 **신체 이미지 및 자기 수용 증진**
+- 공교육 적용을 고려한 **임상적 실용성 확보**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🧩 주요 기능
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 📷 **얼굴 기반 감정 분석**  
+  실시간 얼굴 표정 인식을 통한 감정 상태 파악
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 📈 **감정 변화 트래킹**  
+  감정 흐름 및 자가 인식 기록을 시각화
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 💬 **CBT 기반 피드백 제공**  
+  감정 상태 및 CBT 진행에 따른 맞춤 피드백
 
-### `npm run eject`
+- 📝 **자가 모니터링 저널**  
+  신체 이미지에 대한 인식 및 감정 변화 기록
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 🎯 **긍정 자기 표현 유도**  
+  자존감을 높이는 미션 및 습관 강화 요소 제공
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="404" height="441" alt="image" src="https://github.com/user-attachments/assets/8935de16-cfc4-4b1b-9b7c-5b3675dbfd97" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🔄 서비스 구조
 
-## Learn More
+```mermaid
+flowchart TD
+    A[얼굴 표정 인식] --> B[감정 추론]
+    B --> C[자가 모니터링 UI]
+    C --> D[CBT 피드백 제공]
+    D --> E[자기 인식 향상 & 신체 이미지 개선]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
